@@ -1,0 +1,95 @@
+{
+  "description": "Ground truth evaluation labels independent of model-generated scores, used for offline rubric calibration and precision/recall evaluation.",
+  "labels": {
+    "incident.io": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "B2B SaaS in target 20-300 size range with clear public support/incident management footprint."
+    },
+    "vanta.com": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "High-growth B2B SaaS in target size range with active customer support & compliance desk."
+    },
+    "linear.app": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "B2B SaaS with 45 employees, public documentation, and active help channels."
+    },
+    "attio.com": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "B2B SaaS product in CRM space with ~50 employees."
+    },
+    "posthog.com": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "B2B developer/analytics SaaS within target size range."
+    },
+    "superhuman.com": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "B2B SaaS productivity client with ~110 employees and dedicated customer support."
+    },
+    "plane.so": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "Project management SaaS in 20-300 employee range."
+    },
+    "runwayml.com": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "AI creative software platform with customer success department."
+    },
+    "raycast.com": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "Developer tool SaaS with active community support."
+    },
+    "cal.com": {
+      "ground_truth_label": "good_fit",
+      "expected_fit_category": "high_priority",
+      "reason": "B2B scheduling SaaS within target headcount range."
+    },
+    "pepsico.com": {
+      "ground_truth_label": "poor_fit",
+      "expected_fit_category": "disqualified",
+      "reason": "Consumer goods enterprise far exceeding 300 employees."
+    },
+    "nike.com": {
+      "ground_truth_label": "poor_fit",
+      "expected_fit_category": "disqualified",
+      "reason": "Consumer retail apparel enterprise."
+    },
+    "mcdonalds.com": {
+      "ground_truth_label": "poor_fit",
+      "expected_fit_category": "disqualified",
+      "reason": "B2C fast food enterprise."
+    },
+    "joesplumbing-austin.com": {
+      "ground_truth_label": "poor_fit",
+      "expected_fit_category": "disqualified",
+      "reason": "Local trade service with <20 employees and not B2B SaaS."
+    },
+    "boeing.com": {
+      "ground_truth_label": "poor_fit",
+      "expected_fit_category": "disqualified",
+      "reason": "Aerospace manufacturing conglomerate."
+    },
+    "stealth-ai-research.internal": {
+      "ground_truth_label": "insufficient_evidence",
+      "expected_fit_category": "needs_review",
+      "reason": "No verifiable public product or support desk signals."
+    },
+    "darkmatter-quantum.xyz": {
+      "ground_truth_label": "insufficient_evidence",
+      "expected_fit_category": "needs_review",
+      "reason": "Early-stage pre-product venture without verifiable headcount or customer support."
+    },
+    "phantom-cloud-labs.io": {
+      "ground_truth_label": "insufficient_evidence",
+      "expected_fit_category": "needs_review",
+      "reason": "Incomplete data, missing employee count and support signals."
+    }
+  }
+}

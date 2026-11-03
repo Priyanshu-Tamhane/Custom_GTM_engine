@@ -1,0 +1,31 @@
+{
+  "name": "Support automation - B2B SaaS",
+  "product_description": "AI-powered support ticket triage, customer self-service automation, and escalation intelligence for growing B2B SaaS teams.",
+  "icp_config": {
+    "target_industries": [
+      "B2B SaaS",
+      "Cloud Software",
+      "Enterprise Software"
+    ],
+    "employee_range": [
+      20,
+      300
+    ],
+    "required_signals": [
+      "public support/help center",
+      "evidence of a customer support function"
+    ],
+    "disqualifiers": [
+      "consumer-only business",
+      "outside supported geography",
+      "hardware-only"
+    ],
+    "target_personas": [
+      "Head of Customer Support",
+      "VP Customer Success",
+      "VP Engineering",
+      "Founder"
+    ]
+  },
+  "rubric_version": "v1"
+}

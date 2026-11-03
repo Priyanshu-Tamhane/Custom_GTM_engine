@@ -1,0 +1,16 @@
+# Python & Virtual Environment
+__pycache__/
+*.py[oc]
+.venv/
+
+# Secrets
+.env
+
+# Databases & Caches
+*.db
+*.sqlite3
+.pytest_cache/
+.ruff_cache/
+
+# Local scratch files
+practice.py
