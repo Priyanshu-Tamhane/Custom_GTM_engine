@@ -7,14 +7,24 @@ from app.api.schemas.company import (
     EnrichmentRunResponse,
     SourceEvidenceResponse,
 )
+from app.api.schemas.extraction import (
+    CompanyFactExtraction,
+    ExtractedField,
+    ExtractedSignal,
+    ExtractionResultResponse,
+)
 from app.api.schemas.import_job import ImportSummaryResponse, RowError
 
 __all__ = [
     "CampaignCreate",
     "CampaignResponse",
     "CompanyDetailResponse",
+    "CompanyFactExtraction",
     "EnrichmentBatchResponse",
     "EnrichmentRunResponse",
+    "ExtractedField",
+    "ExtractedSignal",
+    "ExtractionResultResponse",
     "ImportSummaryResponse",
     "RowError",
     "SourceEvidenceResponse",

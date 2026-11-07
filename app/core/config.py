@@ -34,9 +34,11 @@ class Settings(BaseSettings):
     REDIS_URL: str = "redis://localhost:6379/0"
 
     # LLM Provider settings
-    LLM_PROVIDER: str = "mock"
+    LLM_PROVIDER: str = "mock"  # "mock" or "groq"
     LLM_API_KEY: SecretStr | None = None
     LLM_MODEL: str = "mock-model"
+    GROQ_API_KEY: SecretStr | None = None
+    GROQ_MODEL: str = "llama-3.3-70b-versatile"
 
     # Worker & Reliability Defaults
     DEFAULT_TIMEOUT_SECONDS: int = 15

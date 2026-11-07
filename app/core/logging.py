@@ -79,4 +79,9 @@ def setup_logging(log_level: str = "INFO") -> logging.Logger:
     return app_logger
 
 
+def get_logger(name: str = "gtm_engine") -> logging.Logger:
+    """Return a logger instance with the given name."""
+    return logging.getLogger(name)
+
+
 logger = logging.getLogger("gtm_engine")
